@@ -1,6 +1,4 @@
-<img width="1913" height="912" alt="Screenshot 2026-05-27 104020" src="https://github.com/user-attachments/assets/0cc1ba34-d20e-43ed-bd63-5e1ce1b924c0" />
 # 📅 Star Schedule Organizer
-
 A beautiful, full-stack schedule management application with authentication, priority tracking, and progress monitoring. Built with React, TypeScript, Supabase, and Deno.
 
 ## 📸 Screenshots
