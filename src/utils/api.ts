@@ -9,6 +9,8 @@ export interface Schedule {
   description: string;
   startDate: string;
   endDate: string;
+  priority: 'low' | 'medium' | 'high';
+  progress: number;
   createdAt: string;
   updatedAt?: string;
 }
@@ -18,6 +20,8 @@ export interface CreateScheduleData {
   description: string;
   startDate: string;
   endDate: string;
+  priority: 'low' | 'medium' | 'high';
+  progress: number;
 }
 
 // Sign up a new user

@@ -110,6 +110,8 @@ app.post("/make-server-e8fe712f/schedules", async (c) => {
       description,
       startDate,
       endDate,
+      priority: priority || 'medium',
+      progress: progress || 0,
       createdAt: new Date().toISOString(),
     };
 
@@ -122,7 +124,6 @@ app.post("/make-server-e8fe712f/schedules", async (c) => {
   }
 });
 
-// Update a schedule
 app.put("/make-server-e8fe712f/schedules/:id", async (c) => {
   try {
     const userId = await authenticateUser(c.req.header('Authorization'));
@@ -145,6 +146,8 @@ app.put("/make-server-e8fe712f/schedules/:id", async (c) => {
       description,
       startDate,
       endDate,
+      priority,
+      progress,
       updatedAt: new Date().toISOString(),
     };
 
