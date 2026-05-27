@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-import { projectId, publicAnonKey } from '../../utils/supabase/info';
+import { projectId, publicAnonKey } from '../config/supabase';
 
 const SUPABASE_URL = `https://${projectId}.supabase.co`;
 

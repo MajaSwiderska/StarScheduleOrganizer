@@ -100,7 +100,7 @@ app.post("/make-server-e8fe712f/schedules", async (c) => {
       return c.json({ error: 'Unauthorized - please log in to create schedules' }, 401);
     }
 
-    const { title, description, startDate, endDate } = await c.req.json();
+    const { title, description, startDate, endDate, priority, progress } = await c.req.json();
     const scheduleId = crypto.randomUUID();
 
     const schedule = {
@@ -138,7 +138,7 @@ app.put("/make-server-e8fe712f/schedules/:id", async (c) => {
       return c.json({ error: 'Schedule not found or unauthorized to update this schedule' }, 404);
     }
 
-    const { title, description, startDate, endDate } = await c.req.json();
+    const { title, description, startDate, endDate, priority, progress } = await c.req.json();
 
     const updatedSchedule = {
       ...existingSchedule,
