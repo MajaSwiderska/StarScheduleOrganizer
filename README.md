@@ -20,9 +20,6 @@ A beautiful, full-stack schedule management application with authentication, pri
 - 📱 **Responsive Design** - Works on desktop, tablet, and mobile
 - 🎨 **Modern UI** - Built with Tailwind CSS and shadcn/ui components
 
-## 🚀 Live Demo
-
-Visit the live application: [https://MajaSwiderska.github.io/StarScheduleOrganizer](https://MajaSwiderska.github.io/StarScheduleOrganizer)
 
 ## 🛠️ Tech Stack
 
