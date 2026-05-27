@@ -93,12 +93,12 @@ export default function ScheduleOrganizer({ accessToken, onSignOut }: ScheduleOr
     });
   };
 
-  const totalSchedules = schedules.length:
+  const totalSchedules = schedules.length;
   const completedSchedules = schedules.filter( s => s.progress === 100).length;
   const averageProgress = totalSchedules > 0
     ? Math.round(schedules.reduce((acc, s) => acc + s.progress, 0) / totalSchedules)
     : 0;
-  const highPriorityCount = schedules.filters(s => s.priority === 'high').length;
+  const highPriorityCount = schedules.filter(s => s.priority === 'high').length;
   const mediumPriorityCount = schedules.filter(s => s.priority === 'medium').length;
   const lowPriorityCount = schedules.filter(s => s.priority === 'low').length;
 
