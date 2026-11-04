@@ -9,19 +9,19 @@ A beautiful, full-stack schedule management application with authentication, pri
 ### Dashboard
 <img width="1911" height="912" alt="Screenshot 2026-05-27 104054" src="https://github.com/user-attachments/assets/19f8262d-c881-4de9-af39-b585069cc766" />
 
-## ✨ Features
+## Features
 
-- 🔐 **User Authentication** - Sign up and login with email/password
-- 📝 **Create & Manage Schedules** - Add, edit, and delete your schedules
-- 🎯 **Priority Levels** - Mark schedules as Low, Medium, or High priority
-- 📊 **Progress Tracking** - Track completion progress from 0% to 100%
-- 📈 **Analytics Dashboard** - View statistics and progress reports
-- ⭐ **Animated Background** - Beautiful animated star background
-- 📱 **Responsive Design** - Works on desktop, tablet, and mobile
-- 🎨 **Modern UI** - Built with Tailwind CSS and shadcn/ui components
+-  **User Authentication** - Sign up and login with email/password
+-  **Create & Manage Schedules** - Add, edit, and delete your schedules
+-  **Priority Levels** - Mark schedules as Low, Medium, or High priority
+-  **Progress Tracking** - Track completion progress from 0% to 100%
+-  **Analytics Dashboard** - View statistics and progress reports
+-  **Animated Background** - Beautiful animated star background
+-  **Responsive Design** - Works on desktop, tablet, and mobile
+-  **Modern UI** - Built with Tailwind CSS and shadcn/ui components
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18** - UI framework
@@ -37,7 +37,7 @@ A beautiful, full-stack schedule management application with authentication, pri
 - **Hono** - Web framework
 - **KV Store** - Data persistence
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -61,7 +61,7 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 npm run dev
 The app will open at http://localhost:5173
 
-🏗️ Project Structure
+Project Structure
 text
 StarScheduleOrganizer/
 ├── src/
@@ -84,7 +84,7 @@ StarScheduleOrganizer/
 ├── package.json
 └── README.md
 
-# 🎯 Usage
+#  Usage
 Sign Up
 Click "Sign up" on the login page
 
@@ -124,7 +124,7 @@ Completed vs in-progress counts
 
 Priority breakdown
 
-# 🚢 Deployment
+# Deployment
 Deploy to GitHub Pages (Frontend only)
 bash
 npm run build
@@ -147,7 +147,7 @@ SUPABASE_SERVICE_ROLE_KEY
 Deploy to Vercel (Full Stack)
 https://vercel.com/button
 
-# 📝 API Endpoints
+# API Endpoints
 The backend provides the following endpoints:
 
 Method	Endpoint	Description
@@ -157,7 +157,7 @@ POST	/make-server-e8fe712f/schedules	Create new schedule
 PUT	/make-server-e8fe712f/schedules/:id	Update schedule
 DELETE	/make-server-e8fe712f/schedules/:id	Delete schedule
 
-# 🎨 Color Scheme
+# Color Scheme
 Primary Gradient: #667eea to #764ba2 (Purple gradient)
 Priority Colors:
 High: Red
@@ -165,7 +165,7 @@ Medium: Yellow
 Low: Green
 Progress Indicators: Gradient from green to red
 
-# 🤝 Contributing
+# Contributing
 Fork the repository
 
 Create a feature branch (git checkout -b feature/amazing-feature)
@@ -176,12 +176,12 @@ Push to the branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-📧 Contact
+Contact
 Maja Swiderska - GitHub
 
 Project Link: https://github.com/MajaSwiderska/StarScheduleOrganizer
 
-# ⭐ Show your support
+# Show your support
 Give a ⭐️ if this project helped you!
 
 Known Issues:
